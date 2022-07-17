@@ -151,7 +151,7 @@ hr {
 }
 
 /* tablet device */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 576px) and (max-width: 992px) {
     .container {
         width: 100%;
     }
