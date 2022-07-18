@@ -135,16 +135,19 @@ hr {
 
 /* media queries */
 /* mobile device */
-@media screen and (max-width:576px) {
+@media screen and (max-width:688px) {
     .container {
         width: 100%;
     }
 
-    .players .blogs .courses {
+    .players,
+    .blogs,
+    .courses {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .player .blogs {
+    .player,
+    .blogs {
         flex-direction: column;
     }
 
@@ -156,7 +159,9 @@ hr {
         width: 100%;
     }
 
-    .players .blogs .courses {
+    .players,
+    .blogs,
+    .courses {
         grid-template-columns: repeat(2, 1fr);
     }
 
